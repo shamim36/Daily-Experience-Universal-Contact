@@ -1,3 +1,5 @@
 # Project-With-C
 
-![ProjectFnfGIF (2)](https://user-images.githubusercontent.com/104686222/201943827-f52d1d9e-515b-40a2-8cd4-b127ec848466.gif)
+
+![ProjectFnfGIF](https://user-images.githubusercontent.com/104686222/201944086-eb31148a-0eb4-4dfd-83d5-50822673de6c.gif)
+
