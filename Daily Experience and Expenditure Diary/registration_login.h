@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-struct login                           // before the first use of `l`.
+struct login                          
 {
     char fname[30];
     char lname[30];
@@ -22,7 +22,7 @@ void Cool ()
     printf("Press '1' to Register\nPress '2' to Login\n\n");
     scanf("%d",&option);
 
-    getchar();           // catching newline.
+    getchar();           
 
     if(option == 1)
         {
