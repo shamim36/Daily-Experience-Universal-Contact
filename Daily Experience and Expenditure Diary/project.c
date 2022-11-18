@@ -12,12 +12,18 @@
 #include "deletexp.h"
 #include "menu_design.h"
 #include "struct.h"
+#include "registration_login.h"
 
 
 
 int main()
 
 {
+
+    Cool ();
+    system("cls");
+    fflush(stdin);
+
 
     int ch;
 

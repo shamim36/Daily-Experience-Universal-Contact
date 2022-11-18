@@ -97,7 +97,7 @@ void addxp( )
 
             strcpy(customer.time,time);
 
-            printf("\tENTER NAME:");
+            printf("\tENTER NAME OF THE PERSON NEXT TO YOU:");
 
             fflush(stdin);
 
