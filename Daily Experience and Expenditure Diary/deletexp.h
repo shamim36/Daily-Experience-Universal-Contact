@@ -48,7 +48,7 @@ void deletexp( )
 
                 case 1:
 
-                    printf("\n\tENTER THE DATE OF EXPERIENCE TO BE DELETED:[yyyy-mm-dd]:");
+                    printf("\n\tENTER THE DATE OF EXPERIENCE TO BE DELETED:[username yyyy-mm-dd]:");
 
                     fflush(stdin);
 

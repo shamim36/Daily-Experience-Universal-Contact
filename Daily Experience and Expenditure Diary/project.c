@@ -13,12 +13,17 @@
 #include "menu_design.h"
 #include "struct.h"
 #include "registration_login.h"
+#include "contact.h"
 
 
 
 int main()
 
 {
+
+    menu_design();
+    system("cls");
+
 
     Cool ();
     system("cls");
@@ -27,7 +32,7 @@ int main()
 
     int ch;
 
-    menu_design();
+
 
     while(1)
 
@@ -46,16 +51,17 @@ int main()
 
         printf("\n\n");
 
-        printf("\n\n\t|\tADD Experience[1]  \t|");
+        printf("\n\n\t[1]|\tADD Experience  \t");
 
-        printf("\n\t|\tVIEW Experience[2]\t|");
+        printf("\n\t[2]|\tVIEW Experience\t");
 
-        printf("\n\t|\tEDIT Experience[3]\t|");
+        printf("\n\t[3]|\tEDIT Experience\t");
 
-        printf("\n\t|\tDELETE Experience[4]\t|");
-        printf("\n\t|\tDaily Expenditure[5]\t|");
+        printf("\n\t[4]|\tDELETE Experience\t");
+        printf("\n\t[5]|\tCONTACT\t");
 
-        printf("\n\t|\tEXIT\t[6]\t\t|");
+
+        printf("\n\t[6]|\tEXIT\t\t\t");
 
         printf("\n\n\t|\tENTER YOUR CHOICE:");
 
@@ -137,7 +143,9 @@ int main()
 
                 break;
 
-            case 5:
+                case 5:
+                    contact();
+
 
                 break;
 

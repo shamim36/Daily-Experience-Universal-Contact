@@ -17,9 +17,18 @@ struct login                           // before the first use of `l`.
 
 void Cool ()
 {
+
+     printf("\t*************************************************************\n");
+        printf("\t**                                                         **\n");
+        printf("\t**                      Login Menu                         **\n");
+        printf("\t**                                                         **\n");
+        printf("\t*************************************************************\n\n\n");
+
+
     int option;
 
-    printf("Press '1' to Register\nPress '2' to Login\n\n");
+    printf("\t\tPress '1' to Register\n\t\tPress '2' to Login\n\n");
+    printf("\n\nEnter your choice : ");
     scanf("%d",&option);
 
     getchar();           // catching newline.
@@ -51,10 +60,14 @@ void login (void)
 
     struct login l;
 
-    printf("\nPlease Enter your login credentials below\n\n");
-    printf("Username:  ");
+    printf("\t*************************************************************\n");
+        printf("\t**                                                         **\n");
+        printf("\t**                          Login                          **\n");
+        printf("\t**                                                         **\n");
+        printf("\t*************************************************************\n\n\n");
+    printf("\tUsername:  ");
     fgets(username, 30, stdin);
-    printf("\nPassword: ");
+    printf("\n\tPassword: ");
 
     fgets(password, 20, stdin);
 
@@ -95,7 +108,12 @@ void registration(void)
 
     struct login l;
 
-    printf("\nWelcome to your online course provider. We need to enter some details for registration.\n\n");
+    printf("\t*************************************************************\n");
+        printf("\t**                                                         **\n");
+        printf("\t**                      Registration                       **\n");
+        printf("\t**                                                         **\n");
+        printf("\t*************************************************************\n\n\n");
+
     printf("\nEnter First Name: ");
     scanf("%s",l.fname);
     printf("\nEnter Surname: ");
@@ -113,9 +131,10 @@ void registration(void)
     fwrite(&l,sizeof(l),1,log);
     fclose(log);
 
-    printf("\nConfirming details...\n...\nWelcome, %s!\n\n",l.lname);
+    printf("\nRegistration Successful!\n");\
     sleep(1);
-    printf("\nRegistration Successful!\n");
+    printf("\n\nWelcome, %s!\n\n",l.lname);
+
     sleep(3);
     printf("Press any key to continue...");
         getchar();
